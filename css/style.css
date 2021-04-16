@@ -1,0 +1,126 @@
+:root {
+    --light-blue: #88bcbf;
+    --med-blue: #589da3;
+    --dark-blue: #05757d;
+    --font-size: 1.1em;
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'IBM Plex Sans', sans-serif;
+}
+
+body, p, a, ul, li {
+    font-size: 1.1em;
+    font-family: var(--main-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--dark-blue) !important;
+    font-family: var(--secondary-font) !important;
+}
+
+a {
+    color: var(--dark-blue) !important;
+    font-style: italic !important;
+    font-weight: 400;
+}
+
+.btn {
+    font-size: var(--font-size) !important;
+    font-weight: 500 !important;
+}
+
+.btn-primary {
+    background-color: #bbb !important;
+    border-color: #bbb!important;
+    color: #282828 !important;
+    font-style: normal !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--light-blue) !important;
+    border-color: var(--light-blue) !important;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgb(255 255 255 / 50%)!important;
+}
+
+.title-heading {
+    color: var(--med-blue) !important;
+    font-size: 5em;
+    margin-bottom: 25px;
+    font-weight: 100;
+}
+
+.banner-img {
+    background-image: url(../img/banner.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: fit-content;
+}
+
+.subheading {
+    font-weight: 700;
+    border-bottom: 1px solid #999;
+    font-size: 2em;
+}
+
+.skills .row {
+    margin: 10px 0px;
+    font-size: var(--font-size);
+}
+
+.skills .row .div {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.job {
+    font-family: var(--main-font) !important;
+    font-size: var(--font-size) !important;
+}
+
+.job p {
+    margin: 0px;
+}
+
+.job:not(:first-child) {
+    margin-top: 30px !important;
+}
+
+.education:not(:first-child) {
+    margin-top: 20px;
+}
+
+.fs-1 {
+    font-size: var(--font-size);
+}
+
+.fs-2 {
+    font-size: 1.2em;
+}
+
+/*small devices (landscape phones*/
+
+@media (min-width: 576px) {
+
+}
+
+/*medium devices (tablets)*/
+
+@media (min-width: 768px) {
+
+}
+
+/*large devices (desktops)*/
+
+@media (min-width: 992px) {
+
+}
+
+/*extra large devices (large desktops)*/
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1000px;
+    }
+}
