@@ -46,7 +46,7 @@ a {
 
 .title-heading {
     color: var(--med-blue) !important;
-    font-size: 5em;
+    font-size: 3.25em;
     margin-bottom: 25px;
     font-weight: 100;
 }
@@ -102,7 +102,9 @@ a {
 /*small devices (landscape phones*/
 
 @media (min-width: 576px) {
-
+.title-heading{
+    font-size:5em;
+}
 }
 
 /*medium devices (tablets)*/
